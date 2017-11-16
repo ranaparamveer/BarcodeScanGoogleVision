@@ -34,14 +34,14 @@ Step 2. Add the dependency
 ***gradle***
 
 	dependencies {
-		compile 'com.github.User:Repo:Tag'
+	        compile 'com.github.ranaparamveer:BarcodeScanGoogleVision:-SNAPSHOT'
 	}
-  
+
   
   ***maven***
   
-  	<dependency>
-	    <groupId>com.github.User</groupId>
-	    <artifactId>Repo</artifactId>
-	    <version>Tag</version>
+	<dependency>
+	    <groupId>com.github.ranaparamveer</groupId>
+	    <artifactId>BarcodeScanGoogleVision</artifactId>
+	    <version>-SNAPSHOT</version>
 	</dependency>
