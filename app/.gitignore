@@ -1,2 +1,4 @@
 /build
 *.iml
+/src/androidTest/java/com/trick2live/barcodescangooglevision/
+/src/test/java/com/trick2live/barcodescangooglevision/
