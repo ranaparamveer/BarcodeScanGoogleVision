@@ -262,6 +262,12 @@ public class BarcodeReader extends Fragment implements View.OnTouchListener, Bar
                 .build();
     }
 
+    public void toggleFlash() {
+        useFlash = !useFlash;
+        if (mCameraSource != null)
+            mCameraSource.setFlashMode(useFlash ? Camera.Parameters.FLASH_MODE_TORCH : Camera.Parameters.FLASH_MODE_OFF);
+
+    }
 
     /**
      * Restarts the camera.

@@ -34,14 +34,5 @@ Step 2. Add the dependency
 ***gradle***
 
 	dependencies {
-	        compile 'com.github.ranaparamveer:BarcodeScanGoogleVision:-SNAPSHOT'
+	        compile 'com.github.ranaparamveer:BarcodeScanGoogleVision:1.0.7'
 	}
-
-  
-  ***maven***
-  
-	<dependency>
-	    <groupId>com.github.ranaparamveer</groupId>
-	    <artifactId>BarcodeScanGoogleVision</artifactId>
-	    <version>-SNAPSHOT</version>
-	</dependency>

@@ -575,8 +575,10 @@ public class CameraSource {
      */
     public boolean setFlashMode(@FlashMode String mode) {
         synchronized (mCameraLock) {
-            if (mCamera != null && mode != null) {
+            if (mCamera != null) {
                 Camera.Parameters parameters = mCamera.getParameters();
+                if (mode == null)
+                    mode = Camera.Parameters.FLASH_MODE_OFF;
                 parameters.setFlashMode(mode);
                 mCamera.setParameters(parameters);
                 mFlashMode = mode;
